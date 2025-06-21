@@ -62,7 +62,7 @@ const PercentileTable = () => {
                         <p className="s1" style={{ paddingTop: '1pt', paddingLeft: '1pt', textIndent: '0pt', textAlign: 'left' }}>Total marks obtained (out of 720) in words</p>
                     </td>
                     <td style={{ width: '374pt', border: '1pt solid #CCCCCC' }} colSpan="4">
-                        <p className="s2" style={{ paddingTop: '2pt', paddingLeft: '1pt', textIndent: '0pt', textAlign: 'left' }}>Five Hundred eleven Only42628</p>
+                        <p className="s2" style={{ paddingTop: '2pt', paddingLeft: '1pt', textIndent: '0pt', textAlign: 'left' }}>Five Hundred eleven Only</p>
                     </td>
                 </tr>
                 <tr style={{ height: '15pt' }}>
