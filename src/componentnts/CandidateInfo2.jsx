@@ -1,5 +1,5 @@
 import React from 'react'
-import CanditateIMage from "../assets/candidate.jpg"
+import CanditateIMage from "../assets/download.jpg"
 import Qrcode from "../assets/qr-code.png"
 
 const CandidateInfo = () => {
@@ -43,7 +43,7 @@ const CandidateInfo = () => {
                         <p className="s1" style={{ paddingTop: '1pt', paddingLeft: '1pt', textIndent: '0pt', textAlign: 'left' }}>Candidate's name</p>
                     </td>
                     <td style={{ width: '275pt', border: '1pt solid #CCCCCC' }} colSpan="3">
-                        <p className="s2" style={{ paddingTop: '2pt', paddingLeft: '2pt', textIndent: '0pt', textAlign: 'left' }}>PRAVEEN</p>
+                        <p className="s2" style={{ paddingTop: '2pt', paddingLeft: '2pt', textIndent: '0pt', textAlign: 'left' }}> AMAN GITHALA</p>
                     </td>
                 </tr>
                 <tr style={{ height: '30pt' }}>
@@ -52,14 +52,14 @@ const CandidateInfo = () => {
                     </td>
                     <td style={{ width: '89pt', border: '1pt solid #CCCCCC' }}>
                         <p style={{ textIndent: '0pt', textAlign: 'left' }}><br /></p>
-                        <p className="s2" style={{ paddingLeft: '2pt', textIndent: '0pt', textAlign: 'left' }}>GEETA DEVI</p>
+                        <p className="s2" style={{ paddingLeft: '2pt', textIndent: '0pt', textAlign: 'left' }}> SEEMA DEVI</p>
                     </td>
                     <td style={{ width: '96pt', border: '1pt solid #CCCCCC' }}>
                         <p className="s1" style={{ paddingTop: '1pt', paddingLeft: '2pt', textIndent: '0pt', lineHeight: '122%', textAlign: 'left' }}>Date of birth (DD/MM/YYYY)</p>
                     </td>
                     <td style={{ width: '90pt', border: '1pt solid #CCCCCC' }}>
                         <p style={{ textIndent: '0pt', textAlign: 'left' }}><br /></p>
-                        <p className="s2" style={{ paddingLeft: '1pt', textIndent: '0pt', textAlign: 'left' }}>23/11/2005</p>
+                        <p className="s2" style={{ paddingLeft: '1pt', textIndent: '0pt', textAlign: 'left' }}>05/01/2006</p>
                     </td>
                 </tr>
                 <tr style={{ height: '17pt' }}>
@@ -67,7 +67,8 @@ const CandidateInfo = () => {
                         <p className="s1" style={{ paddingTop: '1pt', paddingLeft: '1pt', textIndent: '0pt', textAlign: 'left' }}>Father's name</p>
                     </td>
                     <td style={{ width: '89pt', border: '1pt solid #CCCCCC' }}>
-                        <p className="s2" style={{ paddingTop: '2pt', paddingLeft: '2pt', textIndent: '0pt', textAlign: 'left' }}>NANDKISHOR</p>
+                        <p className="s2" style={{ paddingTop: '2pt', paddingLeft: '2pt', textIndent: '0pt', textAlign: 'left' }}>DHARAM SINGH
+CHOUDHARY</p>
                     </td>
                     <td style={{ width: '96pt', border: '1pt solid #CCCCCC' }}>
                         <p className="s1" style={{ paddingTop: '1pt', paddingLeft: '2pt', textIndent: '0pt', textAlign: 'left' }}>Gender</p>
