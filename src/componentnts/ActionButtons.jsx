@@ -1,12 +1,16 @@
-import React from 'react'
+import React from 'react';
 
 const ActionButtons = () => {
-  return (
-        <div className="action-buttons">
-            <button className="print">Print</button>
-            <button className="close">Close</button>
-        </div>
-    );
-}
+  const handlePrint = () => {
+    window.print(); // this opens the browser print dialog
+  };
 
-export default ActionButtons
+  return (
+    <div className="action-buttons">
+      <button className="print" onClick={handlePrint}>Print</button>
+      <button className="close">Close</button>
+    </div>
+  );
+};
+
+export default ActionButtons;

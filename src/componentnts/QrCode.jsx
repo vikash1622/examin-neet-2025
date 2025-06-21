@@ -1,10 +1,10 @@
 
 import Header from './Header'
-import  {useState } from "react" 
+import  {useEffect, useState } from "react" 
 import { useNavigate } from 'react-router-dom'
 const QrCode = () => {
      const navigate = useNavigate()
-    const [captchaCode, setCaptchaCode] = useState("UP0Y45")
+    const [captchaCode, setCaptchaCode] = useState("")
     const [userInput, setUserInput] = useState("")
     const [errorMassage,seterrorMassage] = useState("")
 
@@ -16,7 +16,9 @@ const QrCode = () => {
         }
         setCaptchaCode(result)
     }
-
+useEffect(()=>{
+generateNewCaptcha()
+},[])
     const handleSubmit = (e) => {
         e.preventDefault()
         if (userInput.toUpperCase() === captchaCode) { 

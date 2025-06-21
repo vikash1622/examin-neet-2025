@@ -6,10 +6,14 @@ import PercentileTable from './PercentileTable'
 import CutoffTable from './CutoffTable'
 import ImportantInfo from './ImportantInfo'
 import Notes from './Notes'
+import { Helmet } from 'react-helmet'
 
 const Home = () => {
     return (
         <div>
+              <Helmet>
+                <title>NEET Result 2025 - Score Card</title>
+            </Helmet>
             <Header />
             <ActionButtons />
             <p style={{ textIndent: '0pt', textAlign: 'left' }}><br /></p>
@@ -25,7 +29,7 @@ const Home = () => {
             <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', alignItems: 'center' }}>
                 <h3 style={{ paddingTop: '3pt', paddingLeft: '5pt', textIndent: '0pt', textAlign: 'left' }}>DATE OF DECLARATION OF RESULT: 14.06.2025</h3>
                 <div style={{ marginRight: '30px' }}>
-                    <img width="149" height="54" src="./Director_NEET.jpg" alt="Director Signature" />
+                    <img width="149" height="54" src="/src/assets/Director_NEET.jpg" alt="Director Signature" />
                     <h3 style={{ textIndent: '0pt', textAlign: 'start' }}>Director (Exams), NTA</h3>
                 </div>
             </div>
