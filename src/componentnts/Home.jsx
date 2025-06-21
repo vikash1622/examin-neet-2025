@@ -7,7 +7,7 @@ import CutoffTable from './CutoffTable'
 import ImportantInfo from './ImportantInfo'
 import Notes from './Notes'
 import { Helmet } from 'react-helmet'
-
+import Sign from "../assets/Director_NEET.jpg"
 const Home = () => {
     return (
         <div>
@@ -29,7 +29,35 @@ const Home = () => {
             <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', alignItems: 'center' }}>
                 <h3 style={{ paddingTop: '3pt', paddingLeft: '5pt', textIndent: '0pt', textAlign: 'left' }}>DATE OF DECLARATION OF RESULT: 14.06.2025</h3>
                 <div style={{ marginRight: '30px' }}>
-                    <img width="149" height="54" src="/src/assets/Director_NEET.jpg" alt="Director Signature" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <img width="149" height="54" src={Sign} alt="Director Signature" />
                     <h3 style={{ textIndent: '0pt', textAlign: 'start' }}>Director (Exams), NTA</h3>
                 </div>
             </div>
