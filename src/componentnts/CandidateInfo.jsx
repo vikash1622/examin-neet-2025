@@ -23,7 +23,7 @@ const CandidateInfo = () => {
                         <table border="0" cellSpacing="0" cellPadding="0" style={{ margin: '0' }}>
                             <tr>
                                 <td style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                                    <img width="137" height="137" src={Qrcode} alt="QR Code" />
+                                    <img width="137" height="137" src={Qrcode} alt="QR Code" className='qr-img' />
                                 </td>
                             </tr>
                         </table>
